@@ -1,0 +1,2 @@
+# This directory isn't needed because only the packer_compiled info gets generated here
+plugin/packer_compiled.lua

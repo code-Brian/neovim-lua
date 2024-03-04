@@ -11,7 +11,6 @@ local servers = {
     'cssls',
     'omnisharp',
     'lua_ls',
-    'clangd'
 }
 
 lsp.on_attach(function(client,bufnr)
@@ -19,11 +18,5 @@ lsp.on_attach(function(client,bufnr)
     vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end, opts)
     vim.keymap.set("n", "K", function() vim.lsp.buf.hover() end, opts)
 end)
-
-require("mason").setup(settings)
-require("mason-lspconfig").setup({
-	ensure_installed = servers,
-	automatic_installation = true,
-})
 
 lsp.setup()

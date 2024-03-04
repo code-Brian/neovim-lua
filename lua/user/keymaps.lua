@@ -10,6 +10,8 @@ vim.g.mapleader = " "
 -- change to netrw via "space" and "e" key combo
 keymap("n", "<leader>pv", ":Ex <CR>", opts)
 -- keymap("n", "<leader>q", ":q <CR>", opts)
+keymap("n", "<leader>ve", "<cmd>lua vim.diagnostic.open_float()<CR>", opts)
+keymap("n", "<leader>ai", "<cmd>lua vim.lsp.buf.code_action()<CR>", opts)
 
 -- NETRW --
 -- use this to jump to the neovim config file from anywhere
@@ -25,4 +27,3 @@ vim.api.nvim_create_user_command(
 -- :p expands that name to the full path
 -- :h removes the last part of the path
 vim.keymap.set("n", '<leader>cd', ':cd %:p:h')
-

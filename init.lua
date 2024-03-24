@@ -1,10 +1,9 @@
 require "user.options"
 require "user.keymaps"
-require "user.plugins"
+require "user.lazy"
 require "user.colors"
 require "user.lsp"
 require "user.cmp"
-require "user.treesitter"
 require "user.telescope"
 
 -- you can change the string  value here between mac or windows to load your nvim config on either OS.

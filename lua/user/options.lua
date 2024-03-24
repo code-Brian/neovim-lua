@@ -18,7 +18,7 @@ local options = {
 	sidescrolloff = 8, 						-- same as above
 	termguicolors = true,					-- set term gui colors
 	smartcase = true,
-	mouse = a, 
+	mouse = a,
 }
 
 -- vim.opt.shortmess:append "c"				-- don't give |ins-completion-menu| messages

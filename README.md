@@ -5,7 +5,10 @@ It started out using [Packer](https://github.com/wbthomason/packer.nvim) as the 
 
 I plan on adding features as I go.
 
-## Instructions
+Color scheme by [joshthecomposer](https://github.com/joshthecomposer/Nvim-Lua/blob/main/lua/joshua/core/colors.lua
+).
+
+## Installation Instructions
 
 ## Mac
 By default, Neovim looks for a folder called _nvim_ in the .config folder. 

@@ -3,7 +3,6 @@ require "user.keymaps"
 require "user.lazy"
 require "user.colors"
 require "user.lsp"
-require "user.cmp"
 require "user.telescope"
 
 -- you can change the string  value here between mac or windows to load your nvim config on either OS.
@@ -11,7 +10,7 @@ local default_folder = 'mac'
 
 -- setup for mac
 if default_folder == "mac" then
-    vim.cmd[[cd /Users/brian/Documents/Coding]]
+    vim.cmd[[cd /Users/brian/code]]
 	vim.api.nvim_create_user_command(
 	'GoNvimConfig',
 	function()

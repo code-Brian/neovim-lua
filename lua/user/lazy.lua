@@ -58,5 +58,13 @@ require("lazy").setup({
 		"nvim-telescope/telescope.nvim", 
 		tag = "0.1.6",
 		dependencies = { "nvim-lua/plenary.nvim"},
+	},
+
+	-- Monokai Pro Theme
+	{
+		"loctvl842/monokai-pro.nvim",
+		config = function()
+			require("monokai-pro").setup()
+		end
 	}
 })

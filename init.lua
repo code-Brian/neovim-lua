@@ -1,9 +1,9 @@
 require "user.options"
 require "user.keymaps"
 require "user.lazy"
-require "user.colors"
 require "user.lsp"
 require "user.telescope"
+require "user.monokaipro"
 
 -- you can change the string  value here between mac or windows to load your nvim config on either OS.
 local default_folder = 'mac'

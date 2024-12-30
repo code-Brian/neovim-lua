@@ -11,6 +11,7 @@ local servers = {
     'cssls',
     'omnisharp',
     'lua_ls',
+	'phpactor',
 }
 
 lsp.on_attach(function(client,bufnr)

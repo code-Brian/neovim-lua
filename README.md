@@ -1,12 +1,10 @@
 # Neovim Config
 
 This is a simple neovim config I cobbled together from various sources.
-It started out using [Packer](https://github.com/wbthomason/packer.nvim) as the package manager, however, since Packer is deprecated, I've made the switch to [Lazy](https://github.com/folke/lazy.nvim).
+
+Package Manager: [Lazy](https://github.com/folke/lazy.nvim).
 
 I plan on adding features as I go.
-
-Color scheme by [joshthecomposer](https://github.com/joshthecomposer/Nvim-Lua/blob/main/lua/joshua/core/colors.lua
-).
 
 ## Installation Instructions
 
